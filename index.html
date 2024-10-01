@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
+
+
+
+
         <!-- <style>
             /* ul {
                 text-align: left;
@@ -37,6 +42,7 @@
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
 
+
     </head>
 
     <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -51,8 +57,8 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a href="#header" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="#feature" class="nav-link">Features</a></li>
-                        <li class="nav-item"><a href="#process" class="nav-link">Installation</a></li>
+                        <li class="nav-item"><a href="#feature" class="nav-link">Why Choose Us</a></li>
+                        <li class="nav-item"><a href="#process" class="nav-link">Portfolio</a></li>
                         <li class="nav-item"><a href="#products" class="nav-link">Pricing</a></li>
                         <li class="nav-item"><a href="#testimonial" class="nav-link">Reviews</a></li>
                         <li class="nav-item"><a href="#faqs" class="nav-link">FAQs</a></li>
@@ -132,8 +138,10 @@
         <div id="feature">
             <div class="container">
                 <div class="section-header">
-                    <p>Unique</p>
-                    <h1>Features</h1>
+                    <!-- <p>Unique</p>
+                    <h1>Features</h1> -->
+                    <h1>Why Choose Us</h1>
+                    
                 </div>
                 <div class="row align-items-center">
                     <div class="col-md-4">
@@ -203,10 +211,10 @@
         <div id="process">
             <div class="container">
                 <div class="section-header">
-                    <p>How To</p>
-                    <h1>Install</h1>
+                    <!-- <p>How To</p> -->
+                    <h1>Portfolio</h1>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-md-4">
                         <div class="process-col">
                             <i class="fa fa-plug"></i>
@@ -234,10 +242,52 @@
                             </p>
                         </div>
                     </div>
+                </div> -->
+                <div class="row portfolio-container">
+                    <div class="col-md-6 mb-4 portfolio-item first">
+                        <div class="position-relative overflow-hidden mb-2">
+                            <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                    <i class="bi bi-plus text-light"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4 portfolio-item second">
+                        <div class="position-relative overflow-hidden mb-2">
+                            <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                                    <i class="bi bi-plus text-light"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4 portfolio-item first">
+                        <div class="position-relative overflow-hidden mb-2">
+                            <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                    <i class="bi bi-plus text-light"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4 portfolio-item second">
+                        <div class="position-relative overflow-hidden mb-2">
+                            <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                                    <i class="bi bi-plus text-light"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div id="video-section">
                     <div class="container">
-                        <div class="youtube-player" data-id="jssO8-5qmag"></div>
+                        <div class="youtube-player" data-id="TWXNi3pC0zM"></div>
                     </div>
                     <script>
                         document.addEventListener("DOMContentLoaded",
@@ -284,6 +334,69 @@
         </div>
         <!-- Call To Action End-->
         
+        <!-- Portfolio Start -->
+        <!-- <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="section-header">
+                    <h1>Portfolio</h1>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 text-center mb-2">
+                            <ul class="list-inline mb-4" id="portfolio-flters">
+                                <li class="btn btn-secondary active"  data-filter="*"><i class="fa fa-star me-2"></i>All</li>
+                                <li class="btn btn-secondary" data-filter=".first"><i class="fa fa-laptop-code me-2"></i>Design</li>
+                                <li class="btn btn-secondary" data-filter=".second"><i class="fa fa-mobile-alt me-2"></i>Development</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row portfolio-container">
+                        <div class="col-md-6 mb-4 portfolio-item first">
+                            <div class="position-relative overflow-hidden mb-2">
+                                <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                                <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                    <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                        <i class="bi bi-plus text-light"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4 portfolio-item second">
+                            <div class="position-relative overflow-hidden mb-2">
+                                <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                                <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                    <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                                        <i class="bi bi-plus text-light"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4 portfolio-item first">
+                            <div class="position-relative overflow-hidden mb-2">
+                                <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                                <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                    <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                        <i class="bi bi-plus text-light"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4 portfolio-item second">
+                            <div class="position-relative overflow-hidden mb-2">
+                                <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                                <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                    <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                                        <i class="bi bi-plus text-light"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Portfolio End -->
+
         
         <!-- Products Start -->
         <div id="products">
