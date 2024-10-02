@@ -95,6 +95,19 @@ h6 {
     color: #000000;
 }
 
+#nav .navbar .navbar-brand2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFD662;
+    text-shadow: 
+        -1px -1px 0 #000000, /* Top left shadow */
+        1px -1px 0 #000000,  /* Top right shadow */
+        -1px 1px 0 #000000,  /* Bottom left shadow */
+        1px 1px 0 #000000;   /* Bottom right shadow */
+}
+
 #nav .navbar-light .nav-link {
     position: relative;
     color: #757575;
