@@ -829,6 +829,14 @@ h6 {
     margin-bottom: 30px;
 }
 
+#products .plan-features li {
+    text-align: left;
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1.5em;
+    margin-left: 1.5em; /* Adjust this to ensure proper spacing */
+}
+
 #products .product-img img {
     max-width: 100%;
 }
