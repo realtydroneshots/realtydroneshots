@@ -545,8 +545,25 @@
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/slick/slick.min.js"></script>
 
+
         <!-- Light Box Zoom Images -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // Add rel="nofollow" to lb-cancel and lb-close links once the lightbox elements are present
+                setTimeout(function() {
+                    var lbCancel = document.querySelector('a.lb-cancel');
+                    var lbClose = document.querySelector('a.lb-close');
+                    
+                    if (lbCancel) {
+                        lbCancel.setAttribute('rel', 'nofollow');
+                    }
+                    if (lbClose) {
+                        lbClose.setAttribute('rel', 'nofollow');
+                    }
+                }, 1000); // Adjust timeout as necessary
+            });
+        </script>
         <script>
             lightbox.option({
               //'resizeDuration': 200,
