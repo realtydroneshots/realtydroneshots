@@ -212,11 +212,13 @@ h6 {
 #header .header-img {
     position: relative;
     overflow: hidden;
+    height: auto;
     text-align: right;
 }
 
 #header .header-img img {
     width: 100%;
+    height: auto;
 }
 
 @media (max-width: 991.98px) {  
