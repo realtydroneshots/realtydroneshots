@@ -65,11 +65,6 @@
         asNavFor: '.testimonial-slider'
     });
     $('#testimonial .slider-nav').css({"position": "relative", "height": "120px"});
-    // Optional: Conditionally manage focus
-    $('.testimonial-slider-nav').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-        $('.slick-slide').attr('tabindex', '-1'); // Remove focus from hidden slides
-        $('.slick-slide[aria-hidden="false"]').attr('tabindex', '0'); // Focus visible slide only
-    });
     
 })(jQuery);
 
