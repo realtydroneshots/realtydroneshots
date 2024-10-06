@@ -263,6 +263,8 @@ h6 {
     position: relative;
     background: transparent;
     margin-top: -80px;
+    /* Added this line to see if it fixes "Avoid large layout shifts" */
+    min-height: 100px;
 }
 
 #feature-mini .container {
